@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website portofolio dan profil pribadi saya">
+  <title>Portofolio Saya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="logo">Porto<span>folio.</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Buka menu" aria-expanded="false">☰</button>
+
+    <nav id="navMenu">
+      <a href="#home">Beranda</a>
+      <a href="#about">Tentang</a>
+      <a href="#skills">Keahlian</a>
+      <a href="#projects">Proyek</a>
+      <a href="#contact">Kontak</a>
+      <button id="themeToggle" class="theme-btn"
+        aria-label="Ganti tema">☀️</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">HALO, SELAMAT DATANG!</p>
+        <h1>Hai, saya <span class="accent">SHIFA</span></h1>
+        <h2>Saya seorang <span id="typing">MAHASISWA</span></h2>
+        <p class="description">
+          Saya senang belajar hal baru, mengembangkan kreativitas,
+          dan membuat sesuatu yang bermanfaat melalui teknologi.
+        </p>
+        <div class="hero-buttons">
+          <a href="#about" class="btn primary">Tentang Saya</a>
+          <a href="#projects" class="btn secondary">Lihat Proyek</a>
+        </div>
+      </div>
+
+      <div class="profile-circle">
+        <div class="profile-inner">
+          <span class="profile-emoji">👨‍💻</span>
+          <p>HELLO, WORLD!</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="eyebrow">KENALI SAYA</p>
+      <h2 class="section-title">Tentang Saya</h2>
+
+      <div class="about-card">
+        <div class="about-icon">🙋</div>
+        <div>
+          <h3>Perkenalkan, saya SHIFA</h3>
+          <p>
+            Saya adalah seorang pelajar yang tertarik pada dunia teknologi
+            dan pemrograman. Saya sedang mempelajari HTML, CSS, dan
+            JavaScript untuk membuat website yang menarik dan interaktif.
+          </p>
+          <p>
+            Saya percaya bahwa setiap proses belajar adalah kesempatan
+            untuk berkembang dan menciptakan karya yang lebih baik.
+          </p>
+          <div class="biodata">
+            <p><strong>Nama:</strong> Nama Lengkap Kamu</p>
+            <p><strong>Asal:</strong> Kota Kamu</p>
+            <p><strong>Hobi:</strong> Membaca, musik, dan coding</p>
+            <p><strong>Status:</strong> Pelajar / Mahasiswa</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="eyebrow">KEMAMPUAN SAYA</p>
+      <h2 class="section-title">Keahlian</h2>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <h3>HTML</h3>
+          <p>Membuat struktur halaman website.</p>
+          <div class="progress"><span style="width: 85%"></span></div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3>CSS</h3>
+          <p>Mengatur tampilan dan desain website.</p>
+          <div class="progress"><span style="width: 75%"></span></div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h3>JavaScript</h3>
+          <p>Membuat website lebih interaktif.</p>
+          <div class="progress"><span style="width: 60%"></span></div>
+        </article>
+      </div>
+      <p class="note">Catatan: persentase keahlian di atas hanya contoh.
+        Sesuaikan dengan kemampuanmu.</p>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="eyebrow">HASIL KARYA</p>
+      <h2 class="section-title">Proyek Saya</h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-art art-one">🖥️</div>
+          <div class="project-info">
+            <h3>Website Portofolio</h3>
+            <p>Website pribadi untuk memperkenalkan diri dan keahlian.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art art-two">📝</div>
+          <div class="project-info">
+            <h3>Aplikasi Catatan</h3>
+            <p>Aplikasi sederhana untuk mencatat kegiatan sehari-hari.</p>
+            <div class="tags"><span>HTML</span><span>JavaScript</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art art-three">🧮</div>
+          <div class="project-info">
+            <h3>Kalkulator Digital</h3>
+            <p>Kalkulator sederhana dengan tampilan yang modern.</p>
+            <div class="tags"><span>CSS</span><span>JavaScript</span></div>
+          </div>
+        </article>
+      </div>
+      <p class="note">Proyek di atas adalah contoh ide proyek, bukan
+        klaim bahwa kamu sudah menyelesaikannya.</p>
+    </section>
+
+    <section id="contact" class="section">
+      <p class="eyebrow">MARI TERHUBUNG</p>
+      <h2 class="section-title">Hubungi Saya</h2>
+      <div class="contact-card">
+        <h3>Punya pertanyaan atau ingin bekerja sama?</h3>
+        <p>Silakan hubungi saya melalui informasi berikut.</p>
+        <a class="contact-link" href="mailto:shifanurul586@gmail.com">
+          ✉️ emailkamu@example.com
+        </a>
+        <p class="social-note">shifa.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> shifau. Dibuat dengan ❤️</p>
+    <a href="#home">Kembali ke atas ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
